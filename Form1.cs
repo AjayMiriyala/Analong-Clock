@@ -44,7 +44,6 @@ namespace AnalogClock
             t.Tick += new EventHandler(this.t_Tick);
             t.Start();
         }
-
         private void t_Tick(object sender, EventArgs e)
         {
             //create graphics
